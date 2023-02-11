@@ -26,7 +26,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(classes = TestBackendTempoMockApplication.class)
-public class PercentageControllerTest {
+class PercentageControllerTest {
 	@Autowired
 	private ObjectMapper objectMapper;
 
@@ -34,7 +34,7 @@ public class PercentageControllerTest {
 	private MockMvc mockMvc;
 
 	@Test
-	public void test_GetCurrent_Should_ShowCurrentPerPercentage_When_Invoked() throws JsonProcessingException, Exception {
+	 void test_GetCurrent_Should_ShowCurrentPerPercentage_When_Invoked() throws JsonProcessingException, Exception {
 		ResultActions res = mockMvc.perform(
 						MockMvcRequestBuilders.get("/v1/percentage/current")
 								.contentType(MediaType.APPLICATION_JSON)
