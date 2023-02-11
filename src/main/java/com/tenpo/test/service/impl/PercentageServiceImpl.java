@@ -1,7 +1,7 @@
-package com.tempo.test.service.impl;
+package com.tenpo.test.service.impl;
 
-import com.tempo.test.dto.PercentageDto;
-import com.tempo.test.service.PercentageService;
+import com.tenpo.test.dto.PercentageDto;
+import com.tenpo.test.service.PercentageService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

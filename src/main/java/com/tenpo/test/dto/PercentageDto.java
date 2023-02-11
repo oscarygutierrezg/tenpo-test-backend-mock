@@ -1,4 +1,4 @@
-package com.tempo.test.dto;
+package com.tenpo.test.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

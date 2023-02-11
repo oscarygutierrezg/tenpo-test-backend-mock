@@ -1,9 +1,9 @@
-package com.tempo.test.controller;
+package com.tenpo.test.controller;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.tempo.test.TestBackendTempoMockApplication;
-import com.tempo.test.dto.PercentageDto;
+import com.tenpo.test.TestBackendTenpoMockApplication;
+import com.tenpo.test.dto.PercentageDto;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.TestInstance;
@@ -25,7 +25,7 @@ import org.springframework.test.web.servlet.result.MockMvcResultMatchers;
 @AutoConfigureMockMvc
 @TestInstance(TestInstance.Lifecycle.PER_CLASS)
 @ExtendWith(SpringExtension.class)
-@ContextConfiguration(classes = TestBackendTempoMockApplication.class)
+@ContextConfiguration(classes = TestBackendTenpoMockApplication.class)
 class PercentageControllerTest {
 	@Autowired
 	private ObjectMapper objectMapper;

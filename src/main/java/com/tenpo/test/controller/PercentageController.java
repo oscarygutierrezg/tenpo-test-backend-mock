@@ -1,7 +1,7 @@
-package com.tempo.test.controller;
+package com.tenpo.test.controller;
 
-import com.tempo.test.dto.PercentageDto;
-import com.tempo.test.service.PercentageService;
+import com.tenpo.test.dto.PercentageDto;
+import com.tenpo.test.service.PercentageService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.AllArgsConstructor;
 import org.springframework.http.ResponseEntity;
